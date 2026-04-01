@@ -66,6 +66,7 @@
             <span data-i18n="hero.h1_span" style="color: var(--rose-dark);">Seninle</span>
             <span data-i18n="hero.h1_2"> Buradayım</span>
           </h1>
+          <p style="font-size:0.8rem;color:var(--text-muted);margin-bottom:8px;font-weight:600;letter-spacing:1px;text-transform:uppercase;">Adana Psikolog</p>
           <p data-i18n="hero.p">Hayatın her döneminde — annelik, ilişkiler, kaygı ya da yalnızlık — yargılamadan, güvenli bir alanda birlikte çalışalım.</p>
           <div class="hero-buttons">
             <a href="randevu.html" class="btn btn-primary" data-i18n="hero.btn1">Randevu Al</a>
@@ -418,6 +419,53 @@
 
   <script src="js/main.js"></script>
 
+  <!-- JSON-LD Structured Data: MedicalBusiness -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "MedicalBusiness",
+    "name": "Psikolog İlknur Yılmazgil",
+    "alternateName": "Adana Psikolog İlknur Yılmazgil",
+    "description": "Adana'da bireysel terapi, annelik desteği, kaygı ve depresyon terapisi, online psikoloji seansı hizmetleri.",
+    "url": "https://ilknuryilmazgil.github.io/psikologilknuryilmazgil.com/",
+    "email": "psk.ilknuryilmazgil@gmail.com",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Adana",
+      "addressRegion": "Adana",
+      "addressCountry": "TR"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "37.0000",
+      "longitude": "35.3213"
+    },
+    "areaServed": [
+      {"@type": "City", "name": "Adana"},
+      {"@type": "State", "name": "Adana"},
+      {"@type": "Country", "name": "Türkiye"}
+    ],
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Terapi Hizmetleri",
+      "itemListElement": [
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Bireysel Terapi Adana"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Annelik Desteği Adana"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Online Psikoloji Seansı"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Kaygı Terapisi Adana"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Depresyon Terapisi Adana"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "İlişki Terapisi Adana"}}
+      ]
+    },
+    "openingHoursSpecification": [
+      {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "09:00", "closes": "18:00"},
+      {"@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "10:00", "closes": "14:00"}
+    ],
+    "priceRange": "$$",
+    "medicalSpecialty": "MentalHealth"
+  }
+  </script>
+
   <!-- JSON-LD Structured Data: Person -->
   <script type="application/ld+json">
   {
@@ -425,39 +473,12 @@
     "@type": "Person",
     "name": "İlknur Yılmazgil",
     "jobTitle": "Psikolog",
-    "description": "Adana'da bireysel terapi, annelik desteği ve online seans hizmetleri sunan psikolog.",
+    "worksFor": {"@type": "MedicalBusiness", "name": "Psikolog İlknur Yılmazgil"},
+    "description": "Adana psikolog. Bireysel terapi, annelik desteği, kaygı, depresyon ve ilişki terapisi alanlarında uzman.",
     "email": "psk.ilknuryilmazgil@gmail.com",
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Adana",
-      "addressCountry": "TR"
-    },
+    "address": {"@type": "PostalAddress", "addressLocality": "Adana", "addressCountry": "TR"},
     "url": "https://ilknuryilmazgil.github.io/psikologilknuryilmazgil.com/",
-    "knowsAbout": ["Bireysel Terapi", "Annelik Desteği", "Kaygı", "Depresyon", "İlişki Terapisi"]
-  }
-  </script>
-
-  <!-- JSON-LD Structured Data: LocalBusiness -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "LocalBusiness",
-    "name": "Psikolog İlknur Yılmazgil",
-    "description": "Adana'da bireysel terapi, annelik desteği ve online seans hizmetleri sunan psikolog.",
-    "url": "https://ilknuryilmazgil.github.io/psikologilknuryilmazgil.com/",
-    "email": "psk.ilknuryilmazgil@gmail.com",
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Adana",
-      "addressCountry": "TR"
-    },
-    "areaServed": [
-      {"@type": "City", "name": "Adana"},
-      {"@type": "Country", "name": "Türkiye"}
-    ],
-    "serviceType": ["Bireysel Terapi", "Annelik Desteği", "Online Seans", "İlişki Terapisi", "Grup Terapisi"],
-    "priceRange": "$$",
-    "openingHours": "Mo-Fr 09:00-18:00"
+    "knowsAbout": ["Bireysel Terapi", "Annelik Desteği", "Kaygı Terapisi", "Depresyon Terapisi", "İlişki Terapisi", "Online Terapi", "Grup Terapisi", "Mindfulness"]
   }
   </script>
 </body>

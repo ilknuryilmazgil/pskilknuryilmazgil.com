@@ -11,10 +11,10 @@ const translations = {
     },
     hero: {
       tag: "Psikolog • Adana",
-      h1_1: "Kendini Bulmak İçin",
+      h1_1: "Adana'da Kendini Bulmak İçin",
       h1_2: "Buradayım",
       h1_span: "Seninle",
-      p: "Hayatın her döneminde — annelik, ilişkiler, kaygı ya da yalnızlık — yargılamadan, güvenli bir alanda birlikte çalışalım.",
+      p: "Adana'da ve online olarak — annelik, ilişkiler, kaygı ya da yalnızlık — yargılamadan, güvenli bir alanda birlikte çalışalım.",
       btn1: "Randevu Al",
       btn2: "Daha Fazla",
       stat1_num: "2+",
