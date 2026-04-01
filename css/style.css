@@ -1,16 +1,16 @@
 /* ===== VARIABLES ===== */
 :root {
-  --rose: #E8B4B8;
-  --rose-dark: #C9878C;
-  --rose-light: #F5D5D7;
-  --cream: #F5EFE6;
-  --cream-dark: #EDE4D8;
+  --rose: #D98A90;
+  --rose-dark: #B85C63;
+  --rose-light: #EDBBBD;
+  --cream: #FAF3EA;
+  --cream-dark: #EFE4D4;
   --white: #FFFFFF;
-  --text: #5C4A4A;
-  --text-light: #8C7272;
-  --text-dark: #3D2E2E;
-  --shadow: rgba(200, 135, 140, 0.15);
-  --shadow-md: rgba(200, 135, 140, 0.25);
+  --text: #3E2C2C;
+  --text-light: #7A5A5A;
+  --text-dark: #2A1A1A;
+  --shadow: rgba(184, 92, 99, 0.15);
+  --shadow-md: rgba(184, 92, 99, 0.28);
   --font-main: 'Cormorant Garamond', 'Georgia', serif;
   --font-body: 'Lato', 'Segoe UI', sans-serif;
   --radius: 16px;
