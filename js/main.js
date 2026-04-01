@@ -17,7 +17,7 @@ const translations = {
       p: "Hayatın her döneminde — annelik, ilişkiler, kaygı ya da yalnızlık — yargılamadan, güvenli bir alanda birlikte çalışalım.",
       btn1: "Randevu Al",
       btn2: "Daha Fazla",
-      stat1_num: "5+",
+      stat1_num: "2+",
       stat1_label: "Yıl Deneyim",
       stat2_num: "200+",
       stat2_label: "Desteklenen Danışan",
@@ -40,7 +40,7 @@ const translations = {
       v4_title: "Esneklik",
       v4_desc: "Online & yüz yüze",
       btn: "Daha Fazla Tanı Beni",
-      badge_num: "5+",
+      badge_num: "2+",
       badge_text: "Yıl Deneyim"
     },
     services_section: {
@@ -140,7 +140,7 @@ const translations = {
       p: "At every stage of life — motherhood, relationships, anxiety, or loneliness — let's work together in a safe, non-judgmental space.",
       btn1: "Book a Session",
       btn2: "Learn More",
-      stat1_num: "5+",
+      stat1_num: "2+",
       stat1_label: "Years Experience",
       stat2_num: "200+",
       stat2_label: "Clients Supported",
@@ -163,7 +163,7 @@ const translations = {
       v4_title: "Flexible",
       v4_desc: "Online & in-person",
       btn: "Get to Know Me",
-      badge_num: "5+",
+      badge_num: "2+",
       badge_text: "Years Experience"
     },
     services_section: {
