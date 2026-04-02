@@ -24,7 +24,12 @@ const translations = {
       stat3_num: "Online",
       stat3_label: "& Yüz Yüze",
       badge_label: "Adana'dan",
-      badge_value: "Online da Mevcut"
+      badge_value: "Online da Mevcut",
+      quote_text: "Kendini tanımak, iyileşmenin ilk adımıdır. Bu yolda yalnız değilsin.",
+      qtag1: "Bireysel Terapi",
+      qtag2: "Annelik",
+      qtag3: "Kaygı",
+      qtag4: "Online Seans"
     },
     about: {
       tag: "Hakkımda",
@@ -147,7 +152,12 @@ const translations = {
       stat3_num: "Online",
       stat3_label: "& In-Person",
       badge_label: "Based in Adana",
-      badge_value: "Online Available"
+      badge_value: "Online Available",
+      quote_text: "Knowing yourself is the first step to healing. You are not alone on this journey.",
+      qtag1: "Individual Therapy",
+      qtag2: "Motherhood",
+      qtag3: "Anxiety",
+      qtag4: "Online Sessions"
     },
     about: {
       tag: "About Me",

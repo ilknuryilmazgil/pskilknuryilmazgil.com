@@ -722,6 +722,11 @@ footer { background: #1A1212; color: rgba(255,255,255,0.75); padding: 60px 0 28p
   .hamburger { display: flex; }
   .nav-right .btn { display: none; }
   .hero-inner { grid-template-columns: 1fr; gap: 36px; text-align: center; padding: 40px 0; }
+  .hero-quote-card { aspect-ratio: auto; padding: 28px 22px 24px; }
+  .hero-quote-mark { font-size: 3.5rem; margin-bottom: 8px; }
+  .hero-quote-text { font-size: 0.97rem; margin-bottom: 16px; }
+  .hero-quote-author { margin-bottom: 16px; }
+  .hero-qtag { font-size: 0.72rem; padding: 4px 10px; }
   .hero-image { order: -1; max-width: 300px; margin: 0 auto; }
   .hero-badge { left: 0; right: 0; margin: 0 auto; width: fit-content; }
   .hero p { margin: 0 auto 32px; }
